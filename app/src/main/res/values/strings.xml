@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">TravelSmart</string>
+    <string name="user_display_picture" />
+    <string name="loading" />
+    <string name="name" />
+    <string name="email" />
+    <string name="dob" />
+    <string name="gender" />
+    <string name="mobile" />
+    <string name="registered_user_since" />
+
+    <string-array name="from_station">
+        <item>Select Your Station</item>'
+        <item>PCMC</item>
+        <item>Sant Tukaram Nagar</item>
+        <item>Bhosari</item>
+        <item>Kasarwadi</item>
+        <item>Phugewadi</item>
+        <item>Vanaz</item>
+        <item>Anand Nagar</item>
+        <item>Ideal Colony</item>
+        <item>Nal Stop</item>
+        <item>Garware college</item>
+
+    </string-array>
+
+
+    <string-array name="default_select_from_station">
+        <item>Select your Station</item>
+    </string-array>
+
+
+    <string-array name="PCMC">
+        <item>Select Your Station</item>
+        <item>Sant Tukaram Nagar</item>
+        <item>Bhosari</item>
+        <item>Kasarwadi</item>
+        <item>Phugewadi</item>
+    </string-array>
+
+    <string-array name="Sant_Tukaram_Nagar">
+        <item>Select Your Station</item>
+        <item>PCMC</item>
+        <item>Bhosari</item>
+        <item>Kasarwadi</item>
+        <item>Phugewadi</item>
+    </string-array>
+
+    <string-array name="Bhosari">
+        <item>Select Your Station</item>
+        <item>PCMC</item>
+        <item>Sant Tukaram Nagar</item>
+        <item>Kasarwadi</item>
+        <item>Phugewadi</item>
+    </string-array>
+
+    <string-array name="Kasarwadi">
+        <item>Select Your Station</item>
+        <item>PCMC</item>
+        <item>Sant Tukaram Nagar</item>
+        <item>Bhosari</item>
+        <item>Phugewadi</item>
+    </string-array>
+
+    <string-array name="Phugewadi">
+        <item>Select Your Station</item>
+        <item>PCMC</item>
+        <item>Sant Tukaram Nagar</item>
+        <item>Bhosari</item>
+        <item>Kasarwadi</item>
+    </string-array>
+
+    <string-array name="Vanaz">
+        <item>Select Your Station</item>
+        <item>Anand Nagar</item>
+        <item>Ideal Colony</item>
+        <item>Nal Stop</item>
+        <item>Garware college</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>

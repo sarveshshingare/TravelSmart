@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homePage">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:layout_margin="15dp">
+
+  <TextView
+      android:id="@+id/TextViewHeading"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:textColor="@color/purple_light"
+      android:textStyle="bold"
+      android:text="Welcome To Travel Smart"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <Button
+      android:id="@+id/Button_BookTicket"
+      android:layout_width="130dp"
+      android:layout_height="130dp"
+      android:layout_marginStart="15dp"
+      android:background="@drawable/button_background"
+      android:layout_marginTop="50dp"
+      android:text="Book \nTicket"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/TextViewHeading" />
+
+  <Button
+      android:id="@+id/Button_ViewTicket"
+      android:layout_width="130dp"
+      android:layout_height="130dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginEnd="15dp"
+      android:text="View \nTicket"
+      android:background="@drawable/button_background"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/TextViewHeading" />
+
+  <Button
+      android:id="@+id/Button_TimeTable"
+      android:layout_width="130dp"
+
+      android:layout_height="130dp"
+      android:layout_below="@+id/Button_BookTicket"
+      android:layout_marginTop="50dp"
+      android:background="@drawable/button_background"
+      android:text="Time \nTable"
+
+      android:textSize="16sp"
+      app:layout_constraintStart_toStartOf="@+id/Button_BookTicket"
+      app:layout_constraintTop_toBottomOf="@+id/Button_BookTicket" />
+
+  <Button
+      android:id="@+id/Button_MetroMap"
+      android:layout_width="130dp"
+      android:layout_height="130dp"
+      android:layout_below="@+id/Button_BookTicket"
+      android:layout_marginTop="50dp"
+      android:text="Metro \nMap"
+      android:background="@drawable/button_background"
+      android:textSize="16sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="@+id/Button_ViewTicket"
+      app:layout_constraintTop_toBottomOf="@+id/Button_ViewTicket" />
+
+  <Button
+      android:id="@+id/Button_GoogleMaps"
+      android:layout_width="130dp"
+
+      android:layout_height="130dp"
+      android:layout_below="@+id/Button_BookTicket"
+   android:layout_marginTop="50dp"
+      android:background="@drawable/button_background"
+
+      android:text="Maps"
+      android:textSize="16sp"
+      app:layout_constraintStart_toStartOf="@+id/Button_TimeTable"
+      app:layout_constraintTop_toBottomOf="@+id/Button_TimeTable" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

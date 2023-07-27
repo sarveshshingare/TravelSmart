@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "164313570437",
+    "project_id": "travelsmart-2c264",
+    "storage_bucket": "travelsmart-2c264.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164313570437:android:911b2f43accf9e568b1dec",
+        "android_client_info": {
+          "package_name": "com.example.travelsmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164313570437-shai3mq32b9vok09ta7p30k9tpp0sjbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHvq0pYiuVQUyFQsMYh3lZdrnWk-Ol1fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164313570437-shai3mq32b9vok09ta7p30k9tpp0sjbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
